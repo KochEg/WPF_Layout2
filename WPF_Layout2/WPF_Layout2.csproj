@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\Res\icons\Close.png" />
+    <None Remove="View\Res\icons\diablo.png" />
+    <None Remove="View\Res\icons\hots.png" />
+    <None Remove="View\Res\icons\hs.png" />
+    <None Remove="View\Res\icons\Open.png" />
+    <None Remove="View\Res\icons\overwatch.png" />
+    <None Remove="View\Res\icons\sc.png" />
+    <None Remove="View\Res\icons\sc2.png" />
+    <None Remove="View\Res\icons\warcraaft3.png" />
+    <None Remove="View\Res\icons\WOW.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="View\Res\TopBackgraund\" />
+    <Folder Include="View\Res\Backgraund\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Res\icons\Close.png" />
+    <Resource Include="View\Res\icons\diablo.png" />
+    <Resource Include="View\Res\icons\hots.png" />
+    <Resource Include="View\Res\icons\hs.png" />
+    <Resource Include="View\Res\icons\Open.png" />
+    <Resource Include="View\Res\icons\overwatch.png" />
+    <Resource Include="View\Res\icons\sc.png" />
+    <Resource Include="View\Res\icons\sc2.png" />
+    <Resource Include="View\Res\icons\warcraaft3.png" />
+    <Resource Include="View\Res\icons\WOW.PNG" />
+  </ItemGroup>
+
+</Project>
